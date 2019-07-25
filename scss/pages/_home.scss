@@ -1,0 +1,388 @@
+/*================Home Page CSS===============*/
+html, body {
+    height: 100%;
+}
+.hero-area, .hero-area div {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.hero-text {
+    margin-top: -200px;
+    height: auto !important;
+}
+.hero-text .boxed-btn{
+    margin-top: 10px;
+}
+.hero-text h2 {
+    font-size: 70px;
+    line-height: 75px;
+    color: #fff;
+}
+.hero-text h4 {
+    font-size: 22px;
+    color: #fff;
+}
+.hero-area .container {
+    position: relative;
+}
+.hero-area .phone-number {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    color: #fff;
+    font-size: 22px;
+}
+// .form-wrap
+.form-wrapper input[type=text], .form-wrapper input[type=email], .form-wrapper input[type=password], .form-wrapper input[type=tel], .form-wrapper input[type=url] {
+    margin-bottom: 20px;
+}
+.form-wrap {
+    background-color: #fff;
+    box-shadow: 0 10px 10px #ddd;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: -125px;
+}
+.form-header {
+    background-color: #3452FC;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+}
+.form-wrapper {
+    padding: 70px 60px 60px;
+}
+.form-wrap button[type=submit] {
+    border: 0;
+    background-color: #3452FF;
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.form-wrap button[type=submit]:hover {
+    opacity: .8;
+}
+.form-wrap .submit-btn h6 {
+    font-size: 12px;
+    color: #444444;
+    font-weight: 400;
+    margin: 15px 0 0;
+    font-family: $secondary-font;
+}
+.form-wrap .submit-btn h6 a {
+    color: #3452FF;
+}
+.form-wrap .submit-btn h6 a:hover {
+    color: #000;
+}
+
+// .about-area
+.about-area {
+    padding: 110px 0 200px;
+}
+.single-about-item {
+    text-align: center;
+}
+.single-about-item .about-icon {
+    width: 120px;
+    height: 120px;
+    border: 2px solid #3452FF;
+    border-radius: 50%;
+    color: #3452FF;
+    font-size: 50px;
+    line-height: 113px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.single-about-item h3 {
+    font-size: 25px;
+}
+
+
+// question-area
+.question-area{
+    @extend %backgroundimage;
+    height: 400px;
+    position: relative;
+    z-index: 2;
+}
+.question-area .section-title {
+    background-color: #3452FF;
+    position: absolute;
+    left: 0;
+    top: -85px;
+    width: 570px;
+    margin: 0 auto;
+    right: 0;
+    color: #fff;
+    padding: 15px 20px;
+}
+.question-area:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    content: "";
+    z-index: -1;
+    opacity: .5;
+}
+.question-area h3, .question-area h4 {
+    color: #fff;
+}
+.question-area h3 {
+    font-size: 25px;
+    position: relative;
+    margin-bottom: 60px;
+}
+.question-area h3:after {
+    position: absolute;
+    left: 0;
+    bottom: -30px;
+    right: 0;
+    width: 230px;
+    height: 1px;
+    background-color: #fff;
+    content: "";
+    margin: 0 auto;
+}
+.question-area h4 {
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+}
+.question-area h4 span {
+    color: #009feb;
+}
+
+// .benefits-area
+.benefits-area {
+    padding: 70px 0 0;
+}
+.benefits-area .section-title.benefit-title {
+    margin-bottom: 70px;
+}
+.benefits-area h4 {
+    font-size: 22px;
+}
+.benefits-area ul li {
+    font-size: 16px;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 3px;
+}
+.benefits-area ul li i.fa {
+    position: absolute;
+    left: 0;
+    top: 3px;
+}
+.benefits-area .scroll-to-form {
+    margin: 70px 0 20px;
+}
+.benefits-area .section-title {
+    margin-bottom: 40px;
+}
+.benefits-area .news-website-image {
+    position: relative;
+    z-index: 2;
+    width: 770px;
+    margin: -15px auto;
+    margin-top: 140px;
+}
+
+// .social-energy-area
+.social-energy-area {
+    background-color: #101A27;
+    padding: 17px 0 0;
+    color: #fff;
+}
+.social-energy-area h3 {
+    font-size: 25px;
+    color: #ffff;
+}
+.single-energy-item h3 {
+    font-size: 22px;
+}
+.single-energy-item {
+    position: relative;
+    padding-left: 115px;
+    margin-top: 30px;
+    font-size: 16px;
+}
+.single-energy-item i.fa {
+    position: absolute;
+    left: 0;
+    top: 3px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    border: 2px solid #fff;
+    font-size: 30px;
+}
+.social-energy-area .scroll-to-form {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.social-energy-area .scroll-to-form .boxed-btn {
+    background-color: #FF1053;
+}
+.social-energy-text {
+    margin-bottom: 40px;
+}
+.social-energy-text img {
+    margin-bottom: 15px;
+}
+.social-energy-photo {
+    padding: 70px 30px 0 0;
+}
+
+// news-area
+.news-area {
+    padding-top: 60px;
+}
+.online-news {
+    -webkit-box-shadow: 0 0px 10px #E4E4E4;
+    box-shadow: 0 0px 10px #E4E4E4;
+    position: relative;
+    z-index: 2;
+    width: 770px;
+    margin: -30px auto;
+    margin-top: 0;
+}
+
+// large-carousel-area
+.large-carousel-area{
+    @extend %backgroundimage;
+    height: 590px;
+    color: #fff;
+}
+.single-large-carousel {
+    font-size: 16px;
+    line-height: 18px;
+}
+.testimonial-area {
+    padding: 0 0 80px;
+    position: relative;
+}
+.single-testimonial {
+    padding: 30px;
+    margin-top: -70px;
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
+    box-shadow: 0 5px 15px #E4E4E4;
+    min-height: 670px;
+    font-size: 16px;
+    line-height: 20px;
+}
+.testimonial-area .testimonial-title {
+    position: absolute;
+    left: 0;
+    top: 200px;
+    right: 0;
+    z-index: 3;
+    text-align: center;
+    background-color: #3452FF;
+    color: #fff;
+    width: 220px;
+    margin: 0 auto;
+    padding: 8px 0px;
+}
+.single-testimonial h3 {
+    font-size: 24px;
+    margin: 0 0 0px;
+}
+
+// .team-area
+.team-area {
+    padding: 70px 0 70px;
+    font-size: 16px;
+    color: #444444;
+}
+.team-area h3 {
+    font-size: 25px;
+}
+.team-area h3 a {
+    color: #3452FF;
+}
+.team-area h3 a:hover {
+    color: #000;
+}
+.dir-title {
+    margin-top: 150px;
+}
+.dir-title h3 span{
+    color: #008000;
+}
+
+// .footer-area 
+.footer-area {
+    background-color: #252525;
+    color: #fff;
+}
+.footer-widget-wrapper {
+    padding: 50px 0 70px;
+}
+.single-footer-widget h3 {
+    color: #fff;
+    font-size: 25px;
+}
+.single-footer-widget address {
+    color: #cccccc;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+}
+.single-footer-widget ul li a {
+    font-size: 16px;
+}
+.single-footer-widget ul li a:hover {
+    color: #3452FF;
+}
+.single-footer-widget ul li .call-btn {
+    background-color: #1E73A4;
+    display: block;
+}
+.single-footer-widget ul li.call-btn a {
+    background-color: #1E73A4;
+    display: inline-block;
+    padding: 7px 20px;
+    border-radius: 50px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.single-footer-widget ul li.call-btn:hover a {
+    color: #3452FF;
+}
+
+.footer {
+    padding: 20px 0;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    font-size: 12px;
+    color: #777777;
+}
+.scroll-to-top {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+.scroll-to-top a {
+    display: block;
+    background-color: rgba(0,0,0,0.87);
+    width: 30px;
+    height: 29px;
+    text-align: center;
+    color: #fff;
+}
+.scroll-to-top a:hover {
+    background-color: #3452FF;
+}
